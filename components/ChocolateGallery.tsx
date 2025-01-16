@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-import { ChocolateBar, chocolateBars } from '../data/chocolateBars'
+import { chocolateBars } from '../data/chocolateBars'
 import { ChocolateCard } from './ChocolateCard'
 import { Button } from "@/components/ui/button"
 import { SortAscIcon, CoffeeIcon, GlobeIcon } from 'lucide-react'

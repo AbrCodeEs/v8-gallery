@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Home, BarChart2, ClipboardList, Truck, MessageSquare, HelpCircle } from 'lucide-react'
+import { Home, ClipboardList, Truck, MessageSquare, HelpCircle } from 'lucide-react'
 
 const navItems = [
   { name: "Dashboard", href: "/", icon: Home },
