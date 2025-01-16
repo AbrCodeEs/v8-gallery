@@ -47,20 +47,21 @@ export default function Dashboard() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-7">
         <Card className="col-span-4">
           <CardHeader>
-            <CardTitle>Production Overview</CardTitle>
-          </CardHeader>
-          <CardContent className="pl-2">
-            <Overview />
-          </CardContent>
-        </Card>
-        <Card className="col-span-3">
-          <CardHeader>
             <CardTitle>Recent Activity</CardTitle>
           </CardHeader>
           <CardContent>
             <RecentActivity />
           </CardContent>
         </Card>
+        <Card className="col-span-3">
+          <CardHeader>
+            <CardTitle>Production Overview</CardTitle>
+          </CardHeader>
+          <CardContent className="pl-2">
+            <Overview />
+          </CardContent>
+        </Card>
+       
       </div>
     </div>
   )
