@@ -47,6 +47,7 @@ export function ChocolateCard({ chocolate }: { chocolate: ChocolateBar }) {
           }`}
           aria-hidden={!isHovered}
         >
+
           <div className="space-y-2 text-center">
             <div className="flex flex-wrap justify-center gap-1 mb-2">
               {chocolate.fermented && <Badge variant="secondary" className="bg-primary hover:bg-[#6c584c] text-primary-foreground">Fermented</Badge>}
